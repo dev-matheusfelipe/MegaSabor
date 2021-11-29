@@ -494,15 +494,3 @@ ul {
     }    
 }
 
-@media (min-resolution: 450dppx) {
-    .home {
-        min-height: 90vh;
-        padding: 150px 0;
-        background-color: var(--main-to-dark-color);
-        border-radius: 0 0 70px 0;
-        position: relative;
-        z-index: 1;
-    }
-
-}
-
