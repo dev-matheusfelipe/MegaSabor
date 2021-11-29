@@ -174,7 +174,7 @@ ul {
 */
 
 .home {
-    height: 90vh;
+    min-height: 95vh;
     padding: 90px 0;
     background-color: var(--main-to-dark-color);
     border-radius: 0 0 400px 0;
@@ -226,7 +226,6 @@ ul {
 .home-img img {
     max-width: 550px;
     width: 100%;
-    box-shadow: var(--shadow-black-100);
     border-radius: 32px;
     animation: bounceTop_01 3s ease infinite;
     z-index: 1;
@@ -493,5 +492,17 @@ ul {
         transform: scale(0.94);
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
     }    
+}
+
+@media (min-resolution: 450dppx) {
+    .home {
+        min-height: 90vh;
+        padding: 150px 0;
+        background-color: var(--main-to-dark-color);
+        border-radius: 0 0 70px 0;
+        position: relative;
+        z-index: 1;
+    }
+
 }
 
