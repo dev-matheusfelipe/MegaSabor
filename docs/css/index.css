@@ -43,6 +43,11 @@ body {
     outline: none!important;
 }
 
+html {
+    margin: 0;
+    padding: 0;
+}
+
 img {
     max-width: 100%;
     vertical-align: middle;
@@ -543,7 +548,51 @@ ul {
     }
 }
 
-@media only screen and (min-width: 320px) {
+/* 
+    Moto G4 / Galaxy S5
+*/
+@media only screen and (max-width: 360px) {
+    .p-5 {
+        padding: 1rem 2rem 2rem 1rem!important;
+    }
+    .home-text {
+        text-align: center;
+    }
+    .container a img {
+        margin-left: 70px;
+    }
+    .no-js .owl-carousel, .owl-carousel.owl-loaded {
+        display: block;
+        padding: 0;
+    }
+}
+
+/* 
+    Pixel 2 / Pixel 2 XL
+*/
+@media only screen and (max-width: 411px) {
+    .p-5 {
+        padding: 1rem 2rem 2rem 1rem!important;
+    }
+    .home-text {
+        text-align: center;
+    }
+    .no-js .owl-carousel, .owl-carousel.owl-loaded {
+        display: block;
+        padding: 0;
+    }
+    .container a img {
+        margin-left: 100px;
+    }
+}
+
+/* 
+    Iphone 5/se
+*/
+@media only screen and (max-width: 320px) {
+    html {
+        width: 346px;
+    }
     .p-5 {
         padding: 1rem!important;
     }
@@ -554,4 +603,47 @@ ul {
         margin-left: 65px;
     }
 }
+
+/* 
+    Iphone 6/7/8
+*/
+@media only screen and (max-width: 375px) {
+    html {
+        width: 376px;
+    }
+    .p-5 {
+        padding: 2rem!important;
+    }
+    .home-text {
+        text-align: center;
+    }
+    .container a img {
+        margin-left: 80px;
+    }
+    .owl-carousel {
+        width: 100%!important;
+    }
+
+}
+
+/* 
+    Iphone 6/7/8 plus
+*/
+@media only screen and (max-width: 414px) {
+    .p-5 {
+        padding: 2rem!important;
+    }
+    .home-text {
+        text-align: center;
+    }
+    .container a img {
+        margin-left: 110px;
+    }
+    .owl-carousel {
+        width: 100%!important;
+        padding: 0;
+    }
+
+}
+
 
