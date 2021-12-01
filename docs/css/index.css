@@ -85,6 +85,10 @@ ul {
     z-index: 2;
 }
 
+.effect-wrap img {
+    width: 20px;
+}
+
 .effect-wrap .effect-1 {
     left: 20%;
     top: 20%;
