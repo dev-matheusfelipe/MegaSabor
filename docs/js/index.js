@@ -37,9 +37,4 @@ $(document).ready(function() {
             }
         }
     });
-    // Scrollit
-    $.crollIt({
-        topOffset: -50
-    });
-
 });
